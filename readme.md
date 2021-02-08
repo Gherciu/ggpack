@@ -1,6 +1,6 @@
 <div align="center">
   <h1>GGpack</h1>
-  <p>Boilerplate to kickstart creating a JavaScript module</p>
+  <p>Boilerplate to kickstart creating a JavaScript module.</p>
 </div>
 
 [![GitHub](https://img.shields.io/github/license/Gherciu/ggpack)](https://github.com/Gherciu/ggpack/blob/master/LICENSE)
