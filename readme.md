@@ -4,6 +4,7 @@
 </div>
 
 [![GitHub](https://img.shields.io/github/license/Gherciu/ggpack)](https://github.com/Gherciu/ggpack/blob/master/LICENSE)
+[![ggpack](https://img.shields.io/badge/Generated%20from-gherciu%2Fggpack-green)](https://github.com/gherciu/ggpack)
 
 ## Contributing
 
