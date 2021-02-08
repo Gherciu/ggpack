@@ -1,0 +1,44 @@
+{
+  "name": "ggpack",
+  "version": "1.0.0",
+  "description": "Boilerplate to kickstart creating a JavaScript module",
+  "license": "MIT",
+  "repository": "gherciu/ggpack",
+  "author": {
+    "name": "Gherciu Gheorghe",
+    "email": "gherciu553@gmail.com",
+    "url": "https://gherciu.github.io"
+  },
+  "collective": {
+    "type": "opencollective",
+    "url": "https://opencollective.com/gherciu-gheorghe"
+  },
+  "funding": {
+    "type": "opencollective",
+    "url": "https://opencollective.com/gherciu-gheorghe"
+  },
+  "main": "./index.js",
+  "bin": {
+    "ggpack": "./cli.js"
+  },
+  "types": "./index.d.ts",
+  "engines": {
+    "node": ">=14"
+  },
+  "scripts": {
+    "test": "ava",
+    "lint": "xo",
+    "fix": "xo --fix"
+  },
+  "keywords": [
+    "ggpack",
+    "bin"
+  ],
+  "dependencies": {
+    "opencollective-postinstall": "^2.0.2"
+  },
+  "devDependencies": {
+    "ava": "^3.15.0",
+    "xo": "^0.37.1"
+  }
+}
