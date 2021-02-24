@@ -21,7 +21,7 @@ jobs:
           npm i
       - name: build
         run: |
-          npm run build | exit 0
+          npm run build || exit 0
       - name: Lint and Test
         run: |
           npm run lint
