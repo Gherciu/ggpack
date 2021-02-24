@@ -27,7 +27,7 @@ jobs:
           npm i
       - name: Build
         run: |
-          npm run build | exit 0
+          npm run build || exit 0
       - name: Bump package version
         run: |
           npm version patch -m "chore: Upgrade to %s"
